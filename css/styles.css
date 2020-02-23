@@ -1,0 +1,55 @@
+body {
+  background-color: #ff8c00;
+  margin: 0px;
+}
+
+.header {
+  background-color: black;
+  height: 120px;
+  width: 100%;
+  position: relative;
+}
+
+.logo-header:not(:hover) {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: 20px solid black;
+  transition: 0.2s;
+  position: relative;
+}
+
+.logo-header:hover {
+  cursor: pointer;
+  height: 110px;
+  width: 110px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 10px solid white;
+  border-right: 20px solid white;
+  border-left: 20px solid white;
+  border-bottom: 20px solid white;
+  border-radius: 0px 0px 10px 10px;
+  transition: .2s;
+  position: relative;
+}
+
+.slide-cover {
+  height: 400px;
+  width: 100%;
+  background-color: #b76500;
+  box-shadow: inset 0px 0px 20px rgba(0,0,0,.8);
+}
+
+.section {
+  content: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.section > h1 {
+  text-align: center;
+}
