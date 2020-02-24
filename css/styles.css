@@ -40,6 +40,10 @@ body {
 .slide-cover {
   height: 400px;
   width: 100%;
+  background-image: url("../resources/img/SlideCover(Overlay).png");
+  background-size: 1990px;
+  background-position: center;
+  background-repeat: repeat;
   background-color: #b76500;
   box-shadow: inset 0px 0px 20px rgba(0,0,0,.8);
 }
